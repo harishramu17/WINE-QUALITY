@@ -25,7 +25,7 @@
 9.pH<br>
 10.Sulphates<br>
 11.Alcohol<br>
-The target variable is the "Quality" column, which represents the quality rating of the wine.
+12.The target variable is the "Quality" column, which represents the quality rating of the wine.<br>
 
 <h2>Data Preprocessing<br></h2>
 Before training the RandomForestClassifier, we preprocess the data to handle missing values, normalize or scale features, and encode the target variable into categorical labels. We also split the data into training and testing sets to evaluate the model's performance.
