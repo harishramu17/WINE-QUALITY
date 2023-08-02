@@ -5,7 +5,9 @@
 
 
 <h2>Introduction<br></h2>
-<p>This project aims to build a Wine Quality Prediction model using the RandomForestClassifier from the scikit-learn library. The model will be trained on a dataset containing various attributes of wine samples, and it will predict the quality of wine as a categorical label (e.g., Low, Medium, High).</p>
+<p>This project aims to build a Wine Quality Prediction model using the RandomForestClassifier from the scikit-learn library. The model will be trained on a dataset containing various attributes of wine samples, and it will predict the quality of wine as a categorical label (e.g., Fixed acidity,Volatile acidity,Citric acid,Residual sugar,Chlorides,Free sulfur dioxide,Total sulfur dioxide,Density,pH
+,Sulphates
+,Alcohol).</p>
 
 <h2>Dataset<br></h2>
 <p>The dataset used for this project is sourced from UCI Machine Learning Repository. It consists of two datasets, one for red wine samples and another for white wine samples. Each dataset contains several chemical and sensory features of wines and their corresponding quality ratings by wine experts.</p>
