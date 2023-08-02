@@ -1,11 +1,11 @@
-# Wine Quality Prediction using RandomForestClassifier
+# Wine Quality Prediction
 
 ![download](https://github.com/harishramu17/WINE-QUALITY/assets/107133605/a0973490-557b-40c3-960c-703d38fb1858)
 
 
 
 <h2>Introduction<br></h2>
-<p>This project aims to build a Wine Quality Prediction model using the RandomForestClassifier from the scikit-learn library. The model will be trained on a dataset containing various attributes of wine samples, and it will predict the quality of wine as a categorical label (e.g., Fixed acidity,Volatile acidity,Citric acid,Residual sugar,Chlorides,Free sulfur dioxide,Total sulfur dioxide,Density,pH
+<p>This project aims to build a Wine Quality Prediction model using the RandomForestClassifier and GaussianNB from the scikit-learn library. The model will be trained on a dataset containing various attributes of wine samples, and it will predict the quality of wine as a categorical label (e.g., Fixed acidity,Volatile acidity,Citric acid,Residual sugar,Chlorides,Free sulfur dioxide,Total sulfur dioxide,Density,pH
 ,Sulphates
 ,Alcohol).</p>
 
@@ -28,10 +28,10 @@
 12.The target variable is the "Quality" column, which represents the quality rating of the wine.<br>
 
 <h2>Data Preprocessing<br></h2>
-Before training the RandomForestClassifier, we preprocess the data to handle missing values, normalize or scale features, and encode the target variable into categorical labels. We also split the data into training and testing sets to evaluate the model's performance.
+Before training the model, we preprocess the data to handle missing values, normalize or scale features, and encode the target variable into categorical labels. We also split the data into training and testing sets to evaluate the model's performance.
 
 <h2>Model Training<br></h2>
-The RandomForestClassifier is used to train the Wine Quality Prediction model on the preprocessed training data. RandomForest is an ensemble learning method that builds multiple decision trees during training and combines their predictions to make more accurate predictions.
+The dataset is used to train the Wine Quality Prediction model on the preprocessed training data. RandomForest is an ensemble learning method that builds multiple decision trees during training and combines their predictions to make more accurate predictions.GaussianNB is a classification algorithm based on Bayes' theorem with the assumption of independence between features. It is commonly used for classification tasks with continuous (real-valued) features and assumes that the features within each class are normally distributed.
 
 <h2>Evaluation<br></h2>
 After training the model, we evaluate its performance on the test data using various metrics, including accuracy, precision, recall, and F1-score. These metrics provide insights into how well the model performs in predicting the wine quality.
