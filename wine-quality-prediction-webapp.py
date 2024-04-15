@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 
-loaded_model=pickle.load(open("C:/Users/mdjit/OneDrive/Desktop/devlop/Wine-Quality-Prediction/trained_model .sav",'rb'))
+loaded_model=pickle.load(open("C:/Users/harish/OneDrive/Desktop/devlop/Wine-Quality-Prediction/trained_model .sav",'rb'))
 
 def wine_quality_prediction(input_data):
 
